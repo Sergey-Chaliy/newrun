@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+   min-width: 1200px;
+    
+}
+
+header{
+    height: 10vh;
+    background-color:#00264d;
+    background-attachment: fixed;
+    
+}
+.main{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    /*background-image: url(img/Run352.png);*/
+    /*background-size: cover;*/
+
+}
+.mg{
+    flex-basis: 25%;
+    height: 60vh;
+    display: flex;
+    transition: .4s;
+
+   
+}
+ .mg:hover{
+        flex-basis: 80%;
+    }
+        .mimg1{
+            background-image: url(img/дет_мандариновый\ забег.jpg);
+        }
+        .mimg2{
+            background-image: url(img/берлин.jpg);
+            background-position:center;
+        }
+        .mimg3{
+            background-image: url(img/главная.jpg);
+            background-position-x: -40px;
+        }
+        .mimg4{
+           background-image: url(img/стризнево.jpg);
+        }
+        .mimg5{
+            background-image: url(img/сметанино.jpg);
+           background-position:center;
+           background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+.pimg1{
+    background-image: url(img/какОлегНачалБегать.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg2{
+    background-image: url(img/МЗ1.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg3{
+    background-image: url(img/jp-striznevo.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg4{
+    background-image: url(img/Юра\(будь-независим\).jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg5{
+    background-image: url(img/зт2.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg6{
+    background-image: url(img/мандаринка.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg7{
+    background-image: url(img//покровский3.jpg);
+    min-height: 600px;
+    position: relative;
+    background-position-y:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec{
+    text-align: center;
+    padding: 50px 80px;
+    background-color:#00264d;
+}
+.text{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
